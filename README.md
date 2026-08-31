@@ -1,8 +1,6 @@
 # FA26-summer-school
 Hands-on tutorials for the EAA Summer School on Interpretable Machine Learning in Acoustics.
 
-# FA26-summer-school
-
 This EAA summer school introduces participants to interpretable machine learning methods with applications in acoustics. The course highlights the importance of incorporating prior physical knowledge and consistency in data-driven acoustic modelling. The program begins with essential big-picture overview and key concepts in optimization that commonly appear in machine learning workflows. Participants then explore techniques for analysing complex acoustic data using dimensionality reduction methods such as principal component analysis (PCA) and dynamic mode decomposition (DMD), including their physically informed variants. Probabilistic modelling with Gaussian processes is presented as a tool for surrogate modelling and uncertainty quantification in vibroacoustic predictions. The course further introduces data-driven discovery of governing equations using sparse regression and symbolic regression, demonstrating how interpretable mathematical models of acoustic systems can be derived from data. Finally, an overview of physics-informed deep learning in acoustics is given, including physics-informed neural networks and autoencoders, showing how physical laws can be embedded into learning models.
 
 
