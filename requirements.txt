@@ -1,0 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+numpy
+matplotlib
+pymoo
+scikit-learn
+pysr
+torch
