@@ -7,7 +7,7 @@ This EAA summer school introduces participants to interpretable machine learning
 ```text
 FA26-summer-school/
 ├── README.md
-├── environment.yml
+├── requirements.txt
 ├── 01_Introduction/
 │   └── intro.ipynb
 ├── 02_Basics_of_Optimization/
@@ -16,13 +16,8 @@ FA26-summer-school/
 │   ├── optimization_partC.ipynb
 │   └── optimization_utils.py
 ├── 03_Dimensionality_Reduction/
-│   ├── dimred_steady.ipynb
-│   ├── dimred_transient.ipynb
-│   ├── dimred_all.txt
-│   ├── dimred_steady.txt
-│   ├── dimred_transient.txt
-│   ├── dimred_utils.py
-│   └── propagation.mp4
+│   ├── 
+│   └── 
 ├── 04_Gaussian_Processes/
 │   ├── 
 │   └── 
@@ -39,7 +34,7 @@ FA26-summer-school/
 
 ## How to run the codes
 
-Scripts for hands-on coding exercises are provided on the course GitHub. Therefore, please ensure you have a working GitHubbefore arriving. Advantage of this option is that you don't need to download any code and any libraries.
+Scripts for hands-on coding exercises are provided on the course GitHub. Therefore, please ensure you have a working GitHub before arriving. Advantage of this option is that you don't need to download any code and any libraries.
 
 For those used to coding in Python and dealing with library dependencies: you can download the git repo and execute the scripts on your laptop, but we unfortunately won't have enough time to help with each individual laptop setup. We provide an environment with list of necessary libraries, so you can setup this even before arriving to Graz.
 
@@ -79,7 +74,7 @@ pip install -r requirements.txt
 python -c "import pysr; pysr.install()"
 ```
 
-
+Then, try to run the Jupyter notebook in folder `01_Introduction` to see, that everything works properly.
 
 
 
