@@ -45,12 +45,9 @@ You can launch a full, preconfigured VS Code instance in your browser:
 1. Click the green **`<> Code`** button at the top of this repository.
 2. Select the **Codespaces** tab.
 3. Click **Create codespace on main**.
-4. Once the VS Code web interface loads, open a new integrated terminal (`Ctrl + \`` or `Cmd + \``) and install the environment:
+4. Once the VS Code web interface loads, open a new integrated terminal. Wait until the libraries install themselves.
+5. After the installations are finished, open the Jupyter Notebook in folder `01_Introduction`. In the upper right corner, click Select Kernel -> Python Environments... -> select Python 3.12 (the default recommended environment).
 
-```bash
-pip install -r requirements.txt
-python -c "import pysr; pysr.install()"
-```
 
 ### How to run locally
 

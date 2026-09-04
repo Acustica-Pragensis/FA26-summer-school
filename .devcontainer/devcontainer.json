@@ -1,0 +1,12 @@
+{
+  "name": "Forum Acusticum 2026 - Summer School - Interpretable Machine Learning in Acoustics",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install -r requirements.txt && python -c 'import pysr; pysr.install()'"
+}
